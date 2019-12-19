@@ -78,12 +78,13 @@
       
         <p>Macos升级至Mojave后，在终端下执行git操作时，突然出现如下报错：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">git: error: unable to read SDK settings for &apos;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk&apos;</span><br><span class="line">git: error: unable to read SDK settings for &apos;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk&apos;</span><br><span class="line">git: error: unable to read SDK settings for &apos;/Library/Developer/CommandLineTools/SDKs/MacOSX10.12.sdk&apos;</span><br><span class="line">git: error: unable to read SDK settings for &apos;/Library/Developer/CommandLineTools/SDKs/MacOSX10.12.sdk&apos;</span><br><span class="line">git: error: unable to read SDK settings for &apos;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk&apos;</span><br><span class="line">git: error: unable to read SDK settings for &apos;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk&apos;</span><br><span class="line">git: error: unable to read SDK settings for &apos;/Library/Developer/CommandLineTools/SDKs/MacOSX10.12.sdk&apos;</span><br><span class="line">git: error: unable to read SDK settings for &apos;/Library/Developer/CommandLineTools/SDKs/MacOSX10.12.sdk&apos;</span><br><span class="line">[master 039153a] Site updated: 2019-12-19 16:13:38</span><br><span class="line"> 3 files changed, 10 insertions(+), 10 deletions(-)</span><br><span class="line">git: error: unable to read SDK settings for &apos;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk&apos;</span><br><span class="line">git: error: unable to read SDK settings for &apos;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk&apos;</span><br><span class="line">git: error: unable to read SDK settings for &apos;/Library/Developer/CommandLineTools/SDKs/MacOSX10.12.sdk&apos;</span><br><span class="line">git: error: unable to read SDK settings for &apos;/Library/Developer/CommandLineTools/SDKs/MacOSX10.12.sdk&apos;</span><br></pre></td></tr></table></figure></p>
 <p>看报错内容应该是Macos升级后，Xcode下的CommandLineTools报错，更新下CommandLineTools就好了。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">xcode-select --install</span><br></pre></td></tr></table></figure></p>
-<p>再试一下：</p>
+<p>再试一下：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></table></figure></p>
+<p>可以了：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">INFO  Deploying: git</span><br><span class="line">INFO  Clearing .deploy_git folder...</span><br><span class="line">INFO  Copying files from public folder...</span><br><span class="line">INFO  Copying files from extend dirs...</span><br><span class="line">[master a984907] Site updated: 2019-12-19 16:26:37</span><br><span class="line"> 11 files changed, 709 insertions(+), 28 deletions(-)</span><br><span class="line">INFO  Deploy done: git</span><br></pre></td></tr></table></figure></p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/12/19/升级Mojave后终端报错解决方法/" data-id="ck4cgnrrf00006cs92by8dqjo" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2019/12/19/升级Mojave后终端报错解决方法/" data-id="ck4cgsvjr00007us9lk27olqq" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/问题与解决方法/">问题与解决方法</a></li></ul>
@@ -281,7 +282,7 @@ Swap usage:   0%
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/02/12/vultr一键部署搭建ssrformac/" data-id="ck4cgnrrt00036cs9rj6mdi9e" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2019/02/12/vultr一键部署搭建ssrformac/" data-id="ck4cgsvjw00017us9skhnz6ik" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/SSR/">SSR</a></li></ul>
@@ -328,7 +329,7 @@ Swap usage:   0%
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/01/23/hello-world/" data-id="ck4cgnrrk00016cs9m27y7jug" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2019/01/23/hello-world/" data-id="ck4cgsvkv00037us942g99vjw" class="article-share-link">Share</a>
       
       
     </footer>
